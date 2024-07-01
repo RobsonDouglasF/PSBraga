@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PS Braga</title>
+    <link rel="stylesheet" href="./css/style-pag-contato.css">
+</head>
+<body>
+    <div class="corpo">
+        <div class="contato">
+            <div class="msg">
+                <form action="https://api.staticforms.xyz/submit" method="post">
+                    <h3>Mande uma mensagem</h3>
+                    <p>Envie duvidas, propostas, solicite informações. Respondemos o quanto antes!</p>
+                
+                    <label for="input1" class="label1">Seu nome</label>
+                    <input type="text" class="input1" placeholder="Digite seu nome" required>
+                    <label for="input2" class="label2">Seu email</label>
+                    <input type="email" class="input2" placeholder="Digite seu email" required>
+                    <label for="input3" class="label3">Digite sua mensagem</label>
+                    <textarea class="input3" name="message" rows="5" cols="33" placeholder="Digite sua mensagem" required></textarea>
+                    <button type="submit" id="btn-enviar-msg">Enviar Mensagem</button>
+                    <input type="hidden" name="accessKey" value="ca55fe3e-b027-4667-85a7-4af20649d6d0">
+                    <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/pag-contato.html">
+                </form>
+            </div>
+            
+            <div class="info">
+                <div class="texto-info">
+                    <h2>Informações de contato</h2>
+                    <p>Entre em contato e busque soluções!</p>
+                    <p>Endereço</p>
+                    <h3>Santa Teresa. Vitoria - Espirito Santo</h3>
+                    <p>Telefone</p>
+                    <h3>(27) 98842-0135</h3>
+                    <p>Email</p>
+                    <h3>Admpsbraga@gmail.com</h3>
+                    <div class="info-social">
+                        <ul>
+                            <li><a href=""><img src="./img/facebook.png" alt=""></a></li>
+                            <li><a href=""><img src="./img/instagram.png" alt=""></a></li>
+                            <li><a href=""><img src="./img/linkedin.png" alt=""></a></li>
+                            <li><a href=""><img src="./img/whatsapp.png" alt=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>

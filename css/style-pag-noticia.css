@@ -1,0 +1,223 @@
+body {
+    margin: 0;
+    background-color: rgb(1, 46, 54);
+    
+}
+.cabecalho {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(1, 46, 54);
+}
+.cab-central {
+    width: 80%;
+    height: 120px;
+    display: flex;
+    
+}
+.cab-central .logo {
+    width: 200px;
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    left: 3%;
+}
+.cab-central .logo img {
+    width: 100%;
+    height: 50%;
+}
+.cab-central .menu {
+    width: 100%;
+    position: relative;
+    
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.cab-central .menu ul li {
+    color: rgb(207, 187, 187);
+    display: inline-block;
+    padding: 10px;
+    padding-left: 20px;
+    cursor: pointer;
+}
+.texto-centro {
+    background-image: url(../img/empresarios.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 30vw;
+    text-align: center;
+    position: relative;
+    
+}
+.texto-centro .container-texto {
+    width: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+.container-texto h1 {
+    font-size: 4vw;
+    color: rgb(25, 3, 121);
+}
+.container-texto p {
+    color: rgb(7, 9, 139);
+    font-size: 22px;
+}
+.corpo {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.bloco {
+    position: relative;
+    margin-top: 1%;
+    border: 1px solid #fff;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+.bloco-img {
+    
+    width: 90%;
+    height: 500px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+
+    
+}
+
+.img1 {
+    
+    display: inline-block;
+    
+    width: 30%;
+    margin-left: 2%;
+    position: relative;
+    left: -1%;
+    
+}
+.img1 img {
+    
+    width: 95%;
+    height: 40%;
+    position: relative;
+    margin: 2.5%;
+}
+.img1 h2, p {
+    text-align: center;
+    width: 95%;
+    margin: 2.5%;
+    color: white;
+    
+}
+.img1 p {
+    margin-top: 15%;
+    font-size: 18px;
+    
+}
+a {
+    text-decoration: none;
+}
+.bloco2 {
+    position: relative;
+    
+    width: 80%;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.img-centro-noticia {
+    
+    width: 80%;
+    height: 100%;
+    position: relative;
+    margin-top: 1%;
+    color: white;
+}
+.img2 {
+    background-color: rgb(0, 45, 83);
+    width: 60%;
+    height: 150px;
+    position: relative;
+    top: 50%;
+    margin-left: 50%;
+    transform: translate(-50%, -0px);
+
+}
+.img2 img {
+    width: 100%;
+    height: 100%;
+}
+.rodape {
+    position: relative;
+    display: flex;
+    height: 290px;
+    justify-content: center;
+    background-color: rgb(0, 26, 31);
+    color: rgb(235, 228, 228);
+}
+.bloco3 {
+    text-align: center;
+    width: 80%;
+    height: 100%;
+    
+}
+.bloco3 .info {
+    
+    height: 23%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    
+    margin-bottom: 0.2%;
+}
+.bloco3 ul {
+    width: 100%;
+   
+}
+.bloco3 ul li {
+    width: 3.5%;
+    height: 35px;
+    display: inline-block;
+    list-style: none;
+    right: 3%;
+    position: relative;
+    padding-left: 1%;
+}
+.bloco3 ul li img {
+    width: 100%;
+    height: 100%;
+
+}
+::-webkit-scrollbar {
+    
+    width: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: rgb(62, 17, 167);
+    border-radius: 20px;
+    
+}
+::-webkit-scrollbar-track {
+    background: #c2b3b3;
+    
+}
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(0, 150, 120);
+}
